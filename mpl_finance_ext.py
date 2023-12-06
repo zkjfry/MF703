@@ -19,7 +19,6 @@ red = '#c2c2c2'     # '#fe0000'
 green = '#13bebc'   # '#00fc01'
 
 color_set = ['#13bebc', '#b0c113', '#c1139e', '#c17113', '#0d8382']
-
 # Create angled box style
 BoxStyle._style_list["angled"] = AngledBoxStyle
 
