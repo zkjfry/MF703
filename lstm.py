@@ -42,7 +42,7 @@ def build_basic_model(input_dim, output_dim, return_sequences):
     """
     model = Sequential()
     model.add(LSTM(
-        input_shape=(None, input_dim),
+        input_shape=(None, 3),
         units=output_dim,
         return_sequences=return_sequences))
 
